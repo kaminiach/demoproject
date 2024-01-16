@@ -1,0 +1,52 @@
+{
+  "start": "2024-01-16T09:07:35.695Z",
+  "end": "2024-01-16T09:08:29.423Z",
+  "capabilities": {
+    "browserName": "Chrome",
+    "browserVersion": "120.0.0.0",
+    "platformName": "darwin",
+    "platformVersion": "23.0.0",
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:55896"
+    },
+    "sessionId": "dbf56896-2ee2-4e9f-a2d7-de41c4ecd282"
+  },
+  "baseUrl": "https://staging.getdecode.io",
+  "framework": "mocha",
+  "duration": 53728,
+  "suites": [
+    {
+      "title": "checkbox block",
+      "duration": 53719,
+      "start": "2024-01-16T09:07:35.698Z",
+      "end": "2024-01-16T09:08:29.417Z",
+      "tests": [
+        {
+          "title": "should create the dropdown block",
+          "start": "2024-01-16T09:07:35.698Z",
+          "end": "2024-01-16T09:08:29.415Z",
+          "duration": 53717,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-01-16T09:07:35.698Z",
+          "end": "2024-01-16T09:07:59.766Z",
+          "duration": 24068,
+          "title": "\"before each\" hook for checkbox block",
+          "associatedSuite": "checkbox block"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/Users/entropik/demoproject/test/specs/Prodsanity/quantitativedropdownotheroptions.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}
